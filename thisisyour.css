@@ -1,0 +1,238 @@
+header {
+    height: 300px;
+    background-color: #1bb59d;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 40px;
+ }
+.liner{
+    border: none;
+    height: 25px;
+        border: none;
+     height:2px;
+     background-color: white;
+     width: 530px;
+}
+.primary{
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: center;
+}
+button{
+    background-color: #e6673c;
+    color: white;
+    border-radius: 50px;
+    border: #e6673c;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    height: 30px;
+    width: 130px;
+}
+.h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+a{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.text1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom:10px;
+}
+.top{
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr;
+grid-column-start: 2;
+grid-column-end: 2;*/
+}
+@media(max-width: 500px){
+    .top {
+        display: grid;
+        grid-template-columns: 1fr  1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        /*grid-template-rows: 1fr 1fr;
+    grid-column-start: 2;
+    grid-column-end: 2;*/
+    }
+    }
+.ficons{
+    background-color: #f6f7f9;
+    border-radius: 100px;
+    border: 3px solid gray;
+    color: black;
+    text-align: center;
+    height: 55px;
+    width: 55px;
+    font-size: 20px;
+    justify-self: end;
+    align-self: end;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.page{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: left;
+}
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: left;
+    justify-items: left;
+}
+.middle{
+    background-color: #e6673c;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr;
+grid-column-start: 2;
+grid-column-end: 2;*/
+}
+@media(max-width: 500px){
+.middle {
+    display: grid;
+    grid-template-columns: 1fr  1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr;
+grid-column-start: 2;
+grid-column-end: 2;*/
+}
+}
+.ticons1{
+    color: white;
+    font-size: 60px;
+    justify-self: end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+.ticons2{
+    color: white;
+    font-size: 60px;
+    justify-self: end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+.ticons3{
+    color: white;
+    font-size: 60px;
+    justify-self: end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+.ticons4{
+    color: white;
+    font-size: 60px;
+    justify-self: end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+.page1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+}
+.text3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: left;
+    color: white;
+}
+.back{
+    background-color: white;
+    height: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    /*grid-template-rows: 1fr 1fr;
+grid-column-start: 1;
+grid-column-end: 1;*/
+    text-align: center;
+
+}
+.bicons{
+    font-size: 50px;
+    text-align: center;
+    justify-items: right;
+    color: gray;
+}
+.message{
+    text-align: left;
+    justify-items: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12px;
+}
+.autor{
+    color: red;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.report{
+   line-height: 20px;
+}
+@media(max-width: 960px){
+    .report{
+        line-height: 15px;
+    }
+
+}
+@media(max-width: 920px){
+    .report{
+        line-height: none;
+    }
+}
+footer{
+    background-color: #424345;
+    color: gainsboro;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.info{
+    margin-top: 10px;
+}
+.home{
+    color: green;
+}
+ 
+  
